@@ -20,6 +20,15 @@ usage:
     
 ```html
 <template>
-<clock secondSetp="1000" ></clock>
+    <clock
+          size="300"
+          dialColor="#55A327"
+          secondHandColor="#EA315A"
+          minuteHandColor="#4182DD"
+          hourHandColor="#794E12"
+          secondSetp="1000"
+          dialBackgroundImage="static/girl.jpg"
+         ></clock> 
 </template>
 ```
+![img](https://raw.githubusercontent.com/ShawnLee2018/vue-component-clock/master/demo.gif)
